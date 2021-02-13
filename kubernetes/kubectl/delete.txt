@@ -1,0 +1,3 @@
+kubectl delete replicaset my-repset --cascade=orphan
+
+

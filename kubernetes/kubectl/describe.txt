@@ -1,0 +1,9 @@
+kubectl describe jobs/pi
+
+kubectl describe replicationcontrollers/nginx
+
+kubectl describe deployments
+
+kubectl describe deployment nginx-deployment
+
+

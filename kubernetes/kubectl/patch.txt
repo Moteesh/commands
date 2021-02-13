@@ -1,0 +1,4 @@
+kubectl patch deployment.v1.apps/nginx-deployment -p '{"spec":{"progressDeadlineSeconds":600}}'
+
+
+

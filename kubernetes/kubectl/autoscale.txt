@@ -1,0 +1,5 @@
+kubectl autoscale deployment.v1.apps/nginx-deployment --min=10 --max=15 --cpu-percent=80
+
+kubectl autoscale rs frontend --max=10 --min=3 --cpu-percent=50
+
+

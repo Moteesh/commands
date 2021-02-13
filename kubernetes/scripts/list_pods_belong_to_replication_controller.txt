@@ -1,0 +1,2 @@
+pods=$(kubectl get pods --selector=app=nginx --output=jsonpath={.items..metadata.name})
+echo $pods
